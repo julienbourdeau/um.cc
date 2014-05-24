@@ -23,10 +23,13 @@ $app = new Illuminate\Foundation\Application;
 | given environment, then we will automatically detect it for you.
 |
 */
-
+/*
 $env = $app->detectEnvironment(function(){
 	return isset($_SERVER['CMS_ENV']) ? $_SERVER['CMS_ENV'] : null;
-});
+});*/
+$env = $app->detectEnvironment(array(
+	'dev' => array('Julien\'s MBA'),
+));
 
 /*
 |--------------------------------------------------------------------------
