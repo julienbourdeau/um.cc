@@ -4,6 +4,7 @@ return array(
 
 	'DEBUG' => true,
 	'URL' => 'http://localhost',
+	'ADMIN_URL' => 'backend',
 
     'DB_HOST' => 'localhost',
     'DB_NAME' => 'cwotadb',
